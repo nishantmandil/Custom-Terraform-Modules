@@ -1,0 +1,25 @@
+# Ignore local .terraform directories
+.terraform/
+
+# Ignore Terraform state files
+*.tfstate
+*.tfstate.*
+
+# Ignore crash log files
+crash.log
+crash.*.log
+
+# Ignore variable override files (sensitive info)
+*.tfvars
+*.tfvars.json
+
+# Ignore backend config (can contain secrets)
+terraform.tfvars
+override.tf
+override.tf.json
+
+# Ignore provider binaries
+.terraform.lock.hcl
+
+# Ignore private key
+terraform-key-ec2
